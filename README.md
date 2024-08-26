@@ -4,7 +4,7 @@
   </p>
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VahSrdAIyPtVMbVx7v0U">
-    <img alt=Support height="550" src='https://cdn.discordapp.com/attachments/1274376662066401302/1277620193937326171/IMG_20240819_213109_407.jpg?ex=66cdd407&is=66cc8287&hm=693eb9c7a9da6369c8774ae1410cb326b25229a33de5c07cc6cb237dd0781424&'
+    <img alt=Support height="770" src='https://cdn.discordapp.com/attachments/1274376662066401302/1277620193937326171/IMG_20240819_213109_407.jpg?ex=66cdd407&is=66cc8287&hm=693eb9c7a9da6369c8774ae1410cb326b25229a33de5c07cc6cb237dd0781424&'
       (https://github.com/user-attachments/assets/34d64aed-61b5-460a-8415-6ac1809cc179)
 "
     <p align="center">
