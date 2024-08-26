@@ -1,0 +1,26 @@
+const winston = require('winston');
+
+// Konfigurasi winston
+const logger = winston.createLogger({
+    level: 'debug',
+    format: winston.format.combine(
+        winston.format.timestamp(),
+        winston.format.json()
+    ),
+    transports: [
+        new winston.transports.Console(),
+        new winston.transports.File({ filename: 'bot.log' })
+    ]
+});
+
+// Contoh penggunaan logging
+logger.info('Bot sedang berjalan');
+logger.debug('Pesan terkirim');
+
+function sendMessage() {
+    logger.info('Mengirim pesan...');
+    // Kode untuk mengirim pesan
+    logger.debug('Pesan terkirim ke pengguna');
+}
+
+sendMessage();
