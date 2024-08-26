@@ -1,8 +1,8 @@
 {
   "name": "Butterfly-Bot",
-  "description": "Butterfly Bot 24/7",
+  "description": "Butterfly Bot 24/7 Prefix (.)",
   "repository": "https://github.com/butterflyinghigh/X",
-  "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
+  "logo": https://cdn.discordapp.com/attachments/1274376662066401302/1277620193937326171/IMG_20240819_213109_407.jpg?ex=66cdd407&is=66cc8287&hm=693eb9c7a9da6369c8774ae1410cb326b25229a33de5c07cc6cb237dd0781424&",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
   "buildpacks": [
     {
