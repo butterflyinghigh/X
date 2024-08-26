@@ -1,34 +1,25 @@
-//base by DGXeon
-//re-upload? recode? copy code? give credit ya :)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
-
 const fs = require('fs')
 const chalk = require('chalk')
 
 //owmner v card
-global.ytname = "YT: X-TECH-CORP" //ur yt chanel name
-global.socialm = "GitHub: X-TECH" //ur github or insta name
+global.ytname = "YT: Butterfly" //ur yt chanel name
+global.socialm = "Instagram: @hamhandsme" //ur github or insta name
 global.location = "United states, New York" //ur location
 
 //new
-global.botname = 'X-TECH V6' //ur bot name
-global.ownernumber = '18097677081' //ur owner number
-global.ownername = '🔞𝐗-𝐓𝐄𝐂𝐇🔰' //ur owner name
+global.botname = 'Butterfly-Bot' //ur bot name
+global.ownernumber = '6283148296743' //ur owner number
+global.ownername = 'ILHAM' //ur owner name
 global.websitex = "https://youtu.be/RT0-AMBVwJg"
-global.wagc = "https://whatsapp.com/channel/0029VaG9VfPKWEKk1rxTQD20"
+global.wagc = "https://whatsapp.com/channel/0029VahSrdAIyPtVMbVx7v0U"
 global.themeemoji = '🪀'
-global.wm = "Xeon Bot Inc."
-global.botscript = 'https://github.com/X-TECH-CORP/X-TECH-V6' //script link
-global.packname = "🔞𝐗-𝐓𝐄𝐂𝐇🔰"
-global.author = "🔞𝐗-𝐓𝐄𝐂𝐇🔰\n\n+18097677081"
-global.creator = "18097677081@s.whatsapp.net"
+global.wm = "Butterfly Bot Inc."
+global.botscript = 'https://github.com/butterflyinghigh/X' //script link
+global.packname = "@hamhandsme"
+global.author = "@hamhandsme\n\n+6283148296743"
+global.creator = "+6283148296743@s.whatsapp.net"
 global.xprefix = '.'
-global.premium = ["18097677081"] // Premium User
+global.premium = ["+6283148296743"] // Premium User
 global.hituet = 0
 
 //bot sett
@@ -43,11 +34,11 @@ global.adminevent = false //show promote/demote message
 global.groupevent = false //show update messages in group chat
 //msg
 global.mess = {
-	limit: 'Your limit is up!',
-	nsfw: 'Nsfw is disabled in this group, Please tell the admin to enable',
+	limit: 'Punya lu udah limit!',
+	nsfw: 'Tobat! Admin perlu mengaktifkan fitur ini di grup.',
     done: 'Done✓',
     error: 'Error!',
-    success: 'Here you go!'
+    success: 'Nih...!'
 }
 //thumbnail
 global.thumb = fs.readFileSync('./XeonMedia/theme/cheemspic.jpg')
