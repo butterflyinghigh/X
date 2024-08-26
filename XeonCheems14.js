@@ -172,7 +172,7 @@ var xeonytimewisher = `Selamat Malam 🌌`
 var xeonytimewisher = `Selamat Malam 🌃`
  }
  if(time2 < "18:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Selamat Malam 🌃`
  }
  if(time2 < "15:00:00"){
 var xeonytimewisher = `Selamat siang 🌅`
