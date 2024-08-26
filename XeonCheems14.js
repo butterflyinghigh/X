@@ -166,22 +166,22 @@ const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
 if(time2 < "23:59:00"){
-var xeonytimewisher = `Good Night 🌌`
+var xeonytimewisher = `Selamat Malam 🌌`
  }
  if(time2 < "19:00:00"){
-var xeonytimewisher = `Good Evening 🌃`
+var xeonytimewisher = `Selamat Malam 🌃`
  }
  if(time2 < "18:00:00"){
 var xeonytimewisher = `Good Evening 🌃`
  }
  if(time2 < "15:00:00"){
-var xeonytimewisher = `Good Afternoon 🌅`
+var xeonytimewisher = `Selamat siang 🌅`
  }
  if(time2 < "11:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Selamat Pagi 🌄`
  }
  if(time2 < "05:00:00"){
-var xeonytimewisher = `Good Morning 🌄`
+var xeonytimewisher = `Selamat Pagi 🌄`
  } 
 //function
 const reSize = async(buffer, ukur1, ukur2) => {
@@ -1153,8 +1153,8 @@ if (XeonTheCreator) return replygcxeon(bvl)
             }
         }
         if (db.data.chats[m.chat].antilink) {
-            if (budy.match('http') && budy.match('https')) {
-               bvl = `\`\`\`「 Link Detected 」\`\`\`\n\nAdmin has sent a link, admin is free to send any link😇`
+            if (budy.match('http') && budy.match('https') && budy.match('www')) {
+               bvl = `\`\`\`「 Link Detected 」\`\`\`\n\nAdmin telah mengirim link, admin bebas mengirim link apapun😇`
 if (isAdmins) return replygcxeon(bvl)
 if (m.key.fromMe) return replygcxeon(bvl)
 if (XeonTheCreator) return replygcxeon(bvl)
