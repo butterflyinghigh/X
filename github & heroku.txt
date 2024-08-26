@@ -21,9 +21,9 @@ git config http.postBuffer 524288000
 
 git push origin master
 
-Username : your username 
+Username : butterflyinghigh 
 
-Password : your password
+Password : butterfly
 
 
 
