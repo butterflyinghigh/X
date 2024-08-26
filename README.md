@@ -1,16 +1,16 @@
-# X-TECH-V3
+# Butterfly
 ***Whatsapp bot created by BUTTERFLY.INC🔰***
 ***```ILHAM```***
   </p>
 <p align="center">
   <a href="https://whatsapp.com/channel/0029VahSrdAIyPtVMbVx7v0U">
-    <img alt=Support height="550" src='https://telegra.ph/file/18f6130800a2488d3f35b.jpg'
+    <img alt=Support height="550" src='https://cdn.discordapp.com/attachments/1274376662066401302/1277620193937326171/IMG_20240819_213109_407.jpg?ex=66cdd407&is=66cc8287&hm=693eb9c7a9da6369c8774ae1410cb326b25229a33de5c07cc6cb237dd0781424&'
       (https://github.com/user-attachments/assets/34d64aed-61b5-460a-8415-6ac1809cc179)
 "
     <p align="center">
-  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=BASED+BY+X+🔞CYBERSAXTRON.INC🔰" alt="">
+  <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=BASED+BY+Butterfly🔰" alt="">
 </p>
-<h1 align="center"> 🔞CYBERSAXTRON.INC🔰 </h1>
+<h1 align="center"> BUTTERFLY.INC🔰 </h1>
 </h1>
 <p align="center"> Saluran 👇
 <p align="center"> 
