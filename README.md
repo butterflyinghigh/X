@@ -1,9 +1,9 @@
 # X-TECH-V3
-***Whatsapp bot created by 🔞CYBERSAXTRON.INC🔰***
-***```X-TECH V3```***
+***Whatsapp bot created by BUTTERFLY.INC🔰***
+***```ILHAM```***
   </p>
 <p align="center">
-  <a href="https://chat.whatsapp.com/LeZF4x3ttDg7dcPBNP23Tn">
+  <a href="https://whatsapp.com/channel/0029VahSrdAIyPtVMbVx7v0U">
     <img alt=Support height="550" src='https://telegra.ph/file/18f6130800a2488d3f35b.jpg'
       (https://github.com/user-attachments/assets/34d64aed-61b5-460a-8415-6ac1809cc179)
 "
@@ -12,15 +12,15 @@
 </p>
 <h1 align="center"> 🔞CYBERSAXTRON.INC🔰 </h1>
 </h1>
-<p align="center"> 𝐇𝐞𝐫𝐞 𝐢𝐬 𝐭𝐡𝐞 𝐛𝐨𝐧𝐝 𝐨𝐟 𝐭𝐡𝐞 𝐬𝐮𝐩𝐩𝐨𝐫𝐭 👇
+<p align="center"> Saluran 👇
 <p align="center"> 
- <a href="https://chat.whatsapp.com/LeZF4x3ttDg7dcPBNP23Tn" target="_blank">
-    <img alt="whatsapp Group" src="https://img.shields.io/badge/ Whatsapp Support Group -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+ <a href="https://whatsapp.com/channel/0029VahSrdAIyPtVMbVx7v0U" target="_blank">
+    <img alt="whatsapp Channel" src="https://img.shields.io/badge/ Whatsapp Channel -25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
  </a>   
 
  
- ### ℹ️ ***```ABOUT X-TECH V3```***
- ***```Introducing X-TECH V1 , It is designed to bring a whole new level of excitement to your boring WhatsApp use.hope it might be helpful to all loosen hope we feel delightful to save you release your feedback and share our chuddy buddy </p>```***
+ ### ℹ️ ***```ABOUT Butterfly Bot```***
+ ***```Introducing Butterfly Bot , It is designed to bring a whole new level of excitement to your boring WhatsApp use.hope it might be helpful to all loosen hope we feel delightful to save you release your feedback and share our chuddy buddy </p>```***
 
 
 ***`🕯ＦＥＡＴＵＲＥＳ🕯`***
@@ -37,7 +37,7 @@
 
 
 1. ***Star⭐ The Repository Must***
-2. ***Click [FORK](https://github.com/X-TECH-CORP/X-TECH-V3/fork)***
+2. ***Click [FORK](https://github.com/butterflyinghigh/X)***
 3. ***[PAIR-CODE](https://x-tech-corp-web.onrender.com) `Whatapp>Three dots>Linked devices>connect with phone number`***
     <br>
     
@@ -103,8 +103,8 @@ pkg install nodejs -y
 pkg install ffmpeg -y 
 pkg install wget
 pkg install imagemagick -y
-git clone https://github.com/X-TECH-CORP/X-TECH-V3/
-cd X-TECH-CORP V3
+git clone https://github.com/butterflyinghigh/X
+cd X
 yarn install
 npm start
 ```
@@ -116,12 +116,9 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 
 
 ##
-- ***Star ⭐ My Repo If You Like X-TECH-V2***
-- ***The [X TECH V1](https://github.com/X-TECH-CORP/X-TECH-V3/) is Made Under The [Apache-2.0 license](https://github.com/X-TECH-CORP/X-TECH-V1//blob/main/LICENSE).***
-- ***[Apache-2.0 license](https://github.com/X-TECH-CORP/X-TECH-V3/blob/main/LICENSE) Means Copying, Re-Uploading, Reverse-Engineering Is Illegal And Not Allowed.***
-##
+- ***Star ⭐ My Repo If You Like Butterfly***
 
-### `𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘛𝘩𝘢𝘯𝘬𝘴 𝘛𝘰 X-TECH-CORP`
+### `𝘚𝘱𝘦𝘤𝘪𝘢𝘭 𝘛𝘩𝘢𝘯𝘬𝘴 𝘛𝘰 Butterfly`
 - ***Everyone***
 - ***Who Helped Me***
 - ***Who Uses This Bot And Supports Me***
@@ -130,7 +127,7 @@ npm i -g pm2 && pm2 start index.js && pm2 save && pm2 logs
 - *I will only Assist You in Bot Deployment and Hosting, Not in Bot Development*
 - *If Someone Modify My Bot Or Try To Copy It I Will Instantly Give Legal Copy Right Strike And Ban That User Repo And Account*
 - *This Bot is For Fun and Educational Purpose, I will not Responsible If You Spam and And Got Banned*
-- ***Credit : [Joker15-tech](https://github.com/Joker15-tech)***
+- ***Credit : [Butterfly](https://github.com/butterflyinghigh)***
 ##
 
 
