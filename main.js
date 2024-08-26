@@ -1,11 +1,3 @@
-//base by DGXeon (Xeon Bot Inc.)
-//YouTube: @DGXeon
-//Instagram: unicorn_xeon13
-//Telegram: t.me/xeonbotinc
-//GitHub: @DGXeon
-//WhatsApp: +916909137213
-//want more free bot scripts? subscribe to my youtube channel: https://youtube.com/@DGXeon
-
 require('./settings')
 const pino = require('pino')
 const { Boom } = require('@hapi/boom')
@@ -139,18 +131,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +2250500107362")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +62")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +2250500107362 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +62 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +2250500107362")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +62")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +2250500107362 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +62 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -172,25 +164,25 @@ try{
 		if (connection === 'close') {
 			let reason = new Boom(lastDisconnect?.error)?.output.statusCode
 			if (reason === DisconnectReason.badSession) {
-				console.log(`Bad Session File, Please Delete Session and Scan Again`);
+				console.log(`File Sesi Buruk, Harap Hapus Sesi dan Pindai Lagi`);
 				startXeonBotInc()
 			} else if (reason === DisconnectReason.connectionClosed) {
-				console.log("Connection closed, reconnecting....");
+				console.log("Koneksi ditutup, menghubungkan kembali....");
 				startXeonBotInc();
 			} else if (reason === DisconnectReason.connectionLost) {
-				console.log("Connection Lost from Server, reconnecting...");
+				console.log("Koneksi Hilang dari Server, menyambung kembali...");
 				startXeonBotInc();
 			} else if (reason === DisconnectReason.connectionReplaced) {
 				console.log("Connection Replaced, Another New Session Opened, Please Close Current Session First");
 				startXeonBotInc()
 			} else if (reason === DisconnectReason.loggedOut) {
-				console.log(`Device Logged Out, Please Delete Session and Scan Again.`);
+				console.log(`Perangkat Keluar, Harap Hapus Sesi dan Pindai Lagi.`);
 				startXeonBotInc();
 			} else if (reason === DisconnectReason.restartRequired) {
 				console.log("Restart Required, Restarting...");
 				startXeonBotInc();
 			} else if (reason === DisconnectReason.timedOut) {
-				console.log("Connection TimedOut, Reconnecting...");
+				console.log("Koneksi Habis Waktu, Menyambungkan Kembali...");
 				startXeonBotInc();
 			} else XeonBotInc.end(`Unknown DisconnectReason: ${reason}|${connection}`)
 		}
@@ -202,9 +194,9 @@ try{
             console.log(color(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2), 'yellow'))
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
-	        console.log(color(`\n${themeemoji} YT CHANNEL: X-TECH-CORP`,'magenta'))
-            console.log(color(`${themeemoji} GITHUB: X-TECH-CORP`,'magenta'))
-            console.log(color(`${themeemoji} INSTAGRAM: @X-TECH-CORP `,'magenta'))
+	        console.log(color(`\n${themeemoji} YT CHANNEL: Butterfly`,'magenta'))
+            console.log(color(`${themeemoji} GITHUB: butterflyinghigh`,'magenta'))
+            console.log(color(`${themeemoji} INSTAGRAM: @hamhandsme `,'magenta'))
             console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
             console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
 		}
@@ -402,7 +394,7 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
+xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, Anda telah *dipromosikan* menjadi *admin* 🥳`
    XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -413,13 +405,13 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 "body": `${ownername}`,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
-"thumbnail": XeonWlcm,
+"thumbnail": Butterfly,
 "sourceUrl": `${wagc}`}}})
 } else if (anu.action == 'demote') {
 const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
 const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
 let xeonName = num
-xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* 😬`
+xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, Anda telah *diturunkan pangkatnya* dari *admin* 😬`
 XeonBotInc.sendMessage(anu.id,
  { text: xeonbody,
  contextInfo:{
@@ -453,32 +445,32 @@ ppgroup = 'https://i.ibb.co/RBx5SQC/avatar-group-large-v2.png?q=60'
 			if (res.announce == true) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup has been closed by admin, Now only admins can send messages !`,
+					text: `「 Group Settings Change 」\n\nGrup telah ditutup oleh admin, Sekarang hanya admin yang dapat mengirim pesan !`,
 				})
 			} else if (res.announce == false) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nThe group has been opened by admin, Now participants can send messages !`,
+					text: `「 Group Settings Change 」\n\nGrup telah dibuka oleh admin, Sekarang peserta dapat mengirim pesan !`,
 				})
 			} else if (res.restrict == true) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup info has been restricted, Now only admin can edit group info !`,
+					text: `「 Group Settings Change 」\n\nInfo grup telah dibatasi, Sekarang hanya admin yang dapat mengedit info grup !`,
 				})
 			} else if (res.restrict == false) {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\nGroup info has been opened, Now participants can edit group info !`,
+					text: `「 Group Settings Change 」\n\n Info grup telah dibuka, Sekarang peserta dapat mengedit info grup !`,
 				})
 			} else if(!res.desc == ''){
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, { 
-					text: `「 Group Settings Change 」\n\n*Group description has been changed to*\n\n${res.desc}`,
+					text: `「 Group Settings Change 」\n\n*Deskripsi grup telah diubah menjadi*\n\n${res.desc}`,
 				})
       } else {
 				await sleep(2000)
 				XeonBotInc.sendMessage(res.id, {
-					text: `「 Group Settings Change 」\n\n*Group name has been changed to*\n\n*${res.subject}*`,
+					text: `「 Group Settings Change 」\n\n*Nama grup telah diubah menjadi*\n\n*${res.subject}*`,
 				})
 			} 
 			}
