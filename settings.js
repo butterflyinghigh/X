@@ -2,12 +2,12 @@ const fs = require('fs')
 const chalk = require('chalk')
 
 //owmner v card
-global.ytname = "Lufi Chan" //ur yt chanel name
+global.ytname = "Lufi-Chan" //ur yt chanel name
 global.socialm = "Instagram: @cttn.dakwah.hijrah" //ur github or insta name
 global.location = "United states, New York" //ur location
 
 //new
-global.botname = 'Lufi Chan' //ur bot name
+global.botname = 'Lufi-Chan' //ur bot name
 global.ownernumber = '6283140260707' //ur owner number
 global.ownername = 'Lufi' //ur owner name
 global.websitex = "https://youtu.be/MrBeast"
